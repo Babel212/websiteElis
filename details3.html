@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KARIMUN JAWA, JAWA TENGAH</title>
+
+  <!-- Pemanggilan link BOOTSTAP, FONT, CSS -->
+  <link rel="stylesheet" href="front-end/libraries/bootstrap/css/bootstrap.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Cuprum:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="front-end/styles/main.css" />
+  <link rel="stylesheet" href="front-end/libraries/xzoom/xzoom.css">
+  
+</head>
+
+<body>
+  <!-- NAVIGASI -->
+  <div class="container">
+    <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="front-end/images/Screenshot 2023-05-27 002003.jpg" alt="logo NOMADS">
+        </a>
+        
+      </div>
+    </nav>
+  </div>
+
+  <main>
+    <section class="section-details-header"> </section>
+    <section class="section-details-content">
+      <div class="container">
+        <div class="row">
+          <div class="col p-0">
+            
+            <nav>
+              <ol class="breadcrumb">
+                <a class="breadcrumb-item" href = "index.html" >
+                  Destinasi
+                </a>
+                <li class="breadcrumb-item active">
+                  Details
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 pl-lg-0">
+            <div class="card card-details">
+              <h1>KARIMUN JAWA, JAWA TENGAH</h1>
+              <h4>INDONESIA</h4>
+              <div class="gallery">
+                <div class="xzoom-container">
+                  </div>
+                <div class="xzoom-thumbs">
+                  <a href="front-end/images/details/lbajo/lbajo.png">
+                    <img src="front-end/images/details/lbajo/lbajo.png" class="xzoom-gallery" width="120"
+                      xpreview="front-end/images/details/lbajo/lbajo.png" alt=""></a>
+                  <a href="front-end/images/details/lbajo/preview/Mask Group 10@2x.png">
+                    <img src="front-end/images/details/lbajo/preview/Mask Group 10@2x.png" class="xzoom-gallery"
+                      width="120" xpreview="front-end/images/details/lbajo/preview/Mask Group 10@2x.png" alt=""></a>
+                  <a href="front-end/images/details/lbajo/preview/Mask Group 10@2x.png">
+                    <img src="front-end/images/details/lbajo/preview/Mask Group 10@2x.png" class="xzoom-gallery"
+                      width="120" xpreview="front-end/images/details/lbajo/preview/Mask Group 10@2x.png" alt=""></a>
+                  <a href="front-end/images/details/lbajo/preview/Mask Group 10@2x.png">
+                    <img src="front-end/images/details/lbajo/preview/Mask Group 10@2x.png" class="xzoom-gallery"
+                      width="120" xpreview="front-end/images/details/lbajo/preview/Mask Group 10@2x.png" alt=""></a>
+                  <a href="front-end/images/details/lbajo/preview/Mask Group 10@2x.png">
+                    <img src="front-end/images/details/lbajo/preview/Mask Group 10@2x.png" class="xzoom-gallery"
+                      width="120" xpreview="front-end/images/details/lbajo/preview/Mask Group 10@2x.png" alt=""></a>
+                </div>
+              </div>
+              <h2>Tentang Wisata</h2>
+              <p>
+                Karimunjawa adalah kepulauan di Laut Jawa yang termasuk dalam Kabupaten Jepara, Jawa Tengah. Dengan luas daratan ±1.500 hektare dan perairan ±110.000 hektare, Karimunjawa kini dikembangkan menjadi pesona wisata Taman Laut yang mulai banyak digemari wisatawan lokal maupun mancanegara.</p>
+             
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section-footer mt-2 mb-2 border-top">
+      <div class="container pt-3 pb-2">
+<section>
+  <h2>Lokasi Wisata</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254036.30650065094!2d110.21992482551147!3d-5.810788418101317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e710b2f2f047749%3A0x424831dbd201c7ff!2sKarimunjawa%2C%20Jepara%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1685125672419!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+  </main>
+
+  
+
+   
+  <script src="front-end/libraries/jquery/jquery-3.6.0.min.js"></script>
+  <script src="front-end/libraries/bootstrap/js/bootstrap.js"></script>
+  <script src="front-end/libraries/retina/retina.min.js"></script>
+  <script src="front-end/libraries/xzoom/xzoom.min.js"></script>
+
+  <!-- memanggil j-query XZOOM -->
+  <script>
+    $(document).ready(function () {
+      $('.xzoom, .xzoom-gallery').xzoom({
+        zoomWidth: 500,
+        title: false,
+        tint: '#333',
+        xoffset: 60
+      });
+    });
+  </script>
+</body>
+
+</html>
